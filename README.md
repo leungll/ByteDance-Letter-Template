@@ -2,7 +2,7 @@
  * @Author: Lili Liang
  * @Date: 2024-05-19 21:22:15
  * @LastEditors: Lili Liang
- * @LastEditTime: 2024-05-19 23:44:20
+ * @LastEditTime: 2024-05-20 00:18:40
  * @Description: Please set description
 -->
 # ByteDance-Letter-Template
@@ -12,7 +12,7 @@
 ## Introduction
 When we apply for graduate/doctoral studies, we need a letter of recommendation from the school or the industry. In my experience, companies rarely provide formal letter templates for study abroad applications, and applicants or recommenders usually make them themselves. 
 
-Therefore, I open-sourced [a recommendation letter templates](https://github.com/leungll/ByteDance-Letter-Template) that is suitable for most companies, taking **ByteDance** as an example. In addtion, you can adpat it into a recommendation letter template for other companies, such as <u>Tencent</u>, <u>Alibaba</u>, <u>Pinduoduo</u>, <u>Meituan</u>, etc.
+Therefore, I open-sourced [a recommendation letter template](https://github.com/leungll/ByteDance-Letter-Template) that is suitable for most companies, taking **ByteDance** as an example. In addition, you can adapt it into a recommendation letter template for other companies, such as <u>Tencent</u>, <u>Alibaba</u>, <u>Pinduoduo</u>, <u>Meituan</u>, etc.
 
 ## Sample
 ![ByteDance-Letter](https://cdn.jsdelivr.net/gh/leungll/MyImgHosting/img/ByteDance-Letter.png) | ![Tencent-Letter](https://cdn.jsdelivr.net/gh/leungll/MyImgHosting/img/Tencent-Letter.png) | ![Meituan-Letter](https://cdn.jsdelivr.net/gh/leungll/MyImgHosting/img/Meituan-Letter.png)
@@ -20,9 +20,9 @@ Therefore, I open-sourced [a recommendation letter templates](https://github.com
 
 ## Features
 - **You DO NOT NEED to know too much [Latex](https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes) syntax to use it**.
-- Support online compilation using [Overleaf](), without the need to install [TexLive](https://tug.org/texlive) environment locally.
+- Support online compilation using [Overleaf](), without the need to install the [TexLive](https://tug.org/texlive) environment locally.
 - A simple template that can be further customized or extended.
-- Separate the letter main content from the template frame.
+- Separate the letter's main content from the template frame.
 - Support adding hyperlinks in generated PDF, such as email or url.
 - Support for footnote markers.
 
@@ -83,7 +83,17 @@ Therefore, I open-sourced [a recommendation letter templates](https://github.com
 - Note the use of `\\` for line breaks.
 
 ## How to compile
+### Method 1: Online Compilation
+- Open link: 
+- Open as Template
+- Edit your content
+- Compile
+- Download PDF
 
+### Method 2: Local Compilation
+- Install the Tex local environment: https://www.latex-project.org/get
+- Download this repo: `git clone https://github.com/leungll/ByteDance-Letter-Template.git`
+- Run: `pdflatex main`
 
 ## Reference
 - [THU Letter of Recommendation Template](https://www.overleaf.com/latex/templates/thu-letter-of-recommendation-template/ghjfgfhykprk)
