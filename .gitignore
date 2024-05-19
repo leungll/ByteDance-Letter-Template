@@ -1,0 +1,7 @@
+*.aux
+*.log
+*.out
+*.swp
+*.zip
+*.gz
+.DS_Store
