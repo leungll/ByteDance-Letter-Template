@@ -1,0 +1,66 @@
+\documentclass[12pt, a4paper]{letter} % Set the font size (10pt, 11pt and 12pt) and paper size
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{geometry}
+\usepackage{eso-pic}
+\usepackage[export]{adjustbox}
+\usepackage{xcolor}
+
+\hypersetup{hidelinks}
+
+\geometry{
+	top=1cm,
+	bottom=2cm,
+	left=2cm,
+	right=2cm,
+}
+
+\newcommand\BackgroundPicture{
+    \put(0,0){
+        \parbox[b][\paperheight]{\paperwidth}{
+            \vfill
+            \centering\includegraphics[width=0.3\paperwidth,height=0.3\paperheight,keepaspectratio]{pic/ByteDance_Logo_Bg.png} % Change your logo
+            \vfill
+        }
+    }
+}
+\AddToShipoutPicture{\BackgroundPicture}
+
+\begin{document}
+    \begin{minipage}{0.5\textwidth}
+        \vspace{0.3in} % Increase distance
+        \includegraphics[width=3.2in]{pic/ByteDance_Logo.png}\\ % Change your logo
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.6\textwidth}\raggedright
+        \vspace{0.3in} % Increase distance
+        \small{
+            \hphantom{AA}Block B, Building T2\\ % Change your address
+            \hphantom{AA}School of Information Science and Technology\\
+            \hphantom{AA}Shenzhen Bay Innovation Technology Center\\
+            \hphantom{AA}3156 Keyuan South Road, Nanshan District\\
+            \hphantom{AA}Shenzhen, P. R. China, 518054
+        }
+    \end{minipage}
+
+    \vspace{0.4in} % Increase distance
+
+    \today
+
+    \textbf{Recommendation Letter for Ms. Lili Liang\footnote{\textbf{Lili Liang}. ``ByteDance Letter Template'' Proceedings of Overleaf. Overleaf Gallery, 2024.}}
+
+    To Whom It May Concern:\\
+
+    \input{letterContent} % Refer to letterContent.tex
+
+    Sincerely yours,
+
+    \includegraphics[width=2in]{pic/signature.png} % Please sign your name
+
+    xxx, Tech Lead Manager\\
+    Department of Product RD and Infrastructure\\
+    ByteDance\\
+    Phone: (86) 10-xxxx-xxx\\ 
+    Email: \href{mailto:xxx@nenu.edu.cn}{xxx@bytedance.com}\\
+    Website: \url{https://www.bytedance.com/en}\\
+\end{document}
