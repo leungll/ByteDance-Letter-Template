@@ -16,21 +16,21 @@
 }
 
 % If you don't need a picture background for the letter, you can remove this code
-% \newcommand\BackgroundPicture{
-%     \put(0,0){
-%         \parbox[b][\paperheight]{\paperwidth}{
-%             \vfill
-%             \centering\includegraphics[width=0.3\paperwidth,height=0.3\paperheight,keepaspectratio]{pic/ByteDance_Logo_Bg.png} % Change your logo
-%             \vfill
-%         }
-%     }
-% }
-% \AddToShipoutPicture{\BackgroundPicture}
+\newcommand\BackgroundPicture{
+    \put(0,0){
+        \parbox[b][\paperheight]{\paperwidth}{
+            \vfill
+            \centering\includegraphics[width=0.3\paperwidth,height=0.3\paperheight,keepaspectratio]{pic/ByteDance_Logo_Bg.png} % Change your logo
+            \vfill
+        }
+    }
+}
+\AddToShipoutPicture{\BackgroundPicture}
 
 \begin{document}
     \begin{minipage}{0.5\textwidth}
         \vspace{0.3in} % Increase distance
-        \includegraphics[width=3.2in]{pic/Alibaba_Logo.png}\\ % Change your logo
+        \includegraphics[width=3.2in]{pic/ByteDance_Logo.png}\\ % Change your logo
     \end{minipage}
     \hfill
     \begin{minipage}{0.6\textwidth}\raggedright
