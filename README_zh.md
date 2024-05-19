@@ -2,7 +2,7 @@
  * @Author: Lili Liang
  * @Date: 2024-05-19 21:22:15
  * @LastEditors: Lili Liang
- * @LastEditTime: 2024-05-20 01:10:55
+ * @LastEditTime: 2024-05-20 01:13:38
  * @Description: Please set description
 -->
 # ByteDance-Letter-Template
@@ -10,7 +10,7 @@
 - **Language**: [English](README.md), [简体中文](README_zh.md).
   
 ## 前言
-当我们在申研/申博时，需要一封来自学校或工业界的推荐信。就我的个人经历而言，很少有公司会提供正式的信件模板给申请人，一般都是申请人/推荐人自己制作推荐信模板用于申请。
+当我们在申研/申博时，需要一封来自学校或工业界的推荐信。就我的个人经历而言，很少有公司会提供正式的信件模板给申请人，一般都是申请人或推荐人自己制作推荐信模板用于申请。
 
 因此我开源了一个适用于大多数公司使用的推荐信模板 [ByteDance-Letter-Template](https://github.com/leungll/ByteDance-Letter-Template)，此模板以字节跳动为例。另外，您也可以将其改编成其他公司的推荐信模板，例如腾讯、阿里巴巴、拼多多、美团等公司。
 
