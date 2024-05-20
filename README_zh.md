@@ -2,13 +2,18 @@
  * @Author: Lili Liang
  * @Date: 2024-05-19 21:22:15
  * @LastEditors: Lili Liang
- * @LastEditTime: 2024-05-20 13:56:13
+ * @LastEditTime: 2024-05-20 22:59:39
  * @Description: Please set description
 -->
 # ByteDance-Letter-Template
 - **ByteDance's recommendation letter template**.
 - **Language**: [English](README.md), [简体中文](README_zh.md).
-  
+
+![GitHub last commit](https://img.shields.io/github/last-commit/leungll/ByteDance-Letter-Template?color=red)
+![GitHub repo size](https://img.shields.io/github/repo-size/leungll/ByteDance-Letter-Template)
+![Static Badge](https://img.shields.io/badge/language-latex-9cf)
+![GitHub License](https://img.shields.io/github/license/leungll/ByteDance-Letter-Template?color=orange)
+
 ## 前言
 当在申研/申博时，如果我们在企业实习或全职工作，通常需要主管为我们写一封推荐信。就我的个人经历而言，鲜少有公司会提供正式的信件模板给申请人，一般都是申请人或推荐人自己制作推荐信模板用于申请。
 

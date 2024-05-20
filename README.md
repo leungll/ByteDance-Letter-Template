@@ -2,12 +2,17 @@
  * @Author: Lili Liang
  * @Date: 2024-05-19 21:22:15
  * @LastEditors: Lili Liang
- * @LastEditTime: 2024-05-20 13:55:37
+ * @LastEditTime: 2024-05-20 22:57:00
  * @Description: Please set description
 -->
 # ByteDance-Letter-Template
 - **ByteDance's recommendation letter template**.
 - **Language**: [English](README.md), [简体中文](README_zh.md).
+
+![GitHub last commit](https://img.shields.io/github/last-commit/leungll/ByteDance-Letter-Template?color=red)
+![GitHub repo size](https://img.shields.io/github/repo-size/leungll/ByteDance-Letter-Template)
+![Static Badge](https://img.shields.io/badge/language-latex-9cf)
+![GitHub License](https://img.shields.io/github/license/leungll/ByteDance-Letter-Template?color=orange)
 
 ## Introduction
 When applying for graduate/doctoral studies, if we are doing an internship or working full-time in industry, we usually need a letter of recommendation from our supervisor. In my experience, companies rarely provide formal letter templates for study abroad applications, and applicants or recommenders usually make them themselves. 
