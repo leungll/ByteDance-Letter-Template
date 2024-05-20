@@ -2,7 +2,7 @@
  * @Author: Lili Liang
  * @Date: 2024-05-19 21:22:15
  * @LastEditors: Lili Liang
- * @LastEditTime: 2024-05-20 00:18:40
+ * @LastEditTime: 2024-05-20 13:55:37
  * @Description: Please set description
 -->
 # ByteDance-Letter-Template
@@ -10,9 +10,9 @@
 - **Language**: [English](README.md), [简体中文](README_zh.md).
 
 ## Introduction
-When we apply for graduate/doctoral studies, we need a letter of recommendation from the school or the industry. In my experience, companies rarely provide formal letter templates for study abroad applications, and applicants or recommenders usually make them themselves. 
+When applying for graduate/doctoral studies, if we are doing an internship or working full-time in industry, we usually need a letter of recommendation from our supervisor. In my experience, companies rarely provide formal letter templates for study abroad applications, and applicants or recommenders usually make them themselves. 
 
-Therefore, I open-sourced [a recommendation letter template](https://github.com/leungll/ByteDance-Letter-Template) that is suitable for most companies, taking **ByteDance** as an example. In addition, you can adapt it into a recommendation letter template for other companies, such as <u>Tencent</u>, <u>Alibaba</u>, <u>Pinduoduo</u>, <u>Meituan</u>, etc.
+Therefore, I open-sourced the project [ByteDance-Letter-Template](https://github.com/leungll/ByteDance-Letter-Template) which is suitable for most companies, taking **ByteDance** as an example. In addition, you can adapt it into a recommendation letter template for other companies, such as <u>Tencent</u>, <u>Alibaba</u>, <u>Pinduoduo</u>, <u>Meituan</u>, etc.
 
 ## Sample
 ![ByteDance-Letter](https://cdn.jsdelivr.net/gh/leungll/MyImgHosting/img/ByteDance-Letter.png) | ![Tencent-Letter](https://cdn.jsdelivr.net/gh/leungll/MyImgHosting/img/Tencent-Letter.png) | ![Meituan-Letter](https://cdn.jsdelivr.net/gh/leungll/MyImgHosting/img/Meituan-Letter.png)
@@ -29,33 +29,35 @@ Therefore, I open-sourced [a recommendation letter template](https://github.com/
 ## File layout
 ```
 .
-├── LICENSE                   \\ repo license
-├── README.md                 \\ readme in English
-├── README_zh.md              \\ readme in Chinese
-├── letterContent.tex         \\ main content of the letter, isolates from the template frame
-├── main.pdf                  \\ letter pdf generated after latex compilation
-├── main.tex                  \\ template frame
-└── pic                       \\ folder where pictures are stored
-    ├── Alibaba_Logo.png
-    ├── ByteDance_Logo.png
-    ├── ByteDance_Logo_Bg.png
-    ├── Meituan_Logo.png
-    ├── Pinduoduo_Logo.png
-    ├── Tencent_Logo.png
-    └── signature.png
+├── LICENSE                     \\ repo license
+├── README.md                   \\ readme in English
+├── README_zh.md                \\ readme in Chinese
+├── letterContent.tex           \\ main content of the letter, isolates from the template frame
+├── main.pdf                    \\ letter pdf generated after latex compilation
+├── main.tex                    \\ template frame
+├── pic                         \\ folder where pictures are stored
+│   ├── Alibaba_Logo.png
+│   ├── ByteDance_Logo.png
+│   ├── ByteDance_Logo_Bg.png
+│   ├── Meituan_Logo.png
+│   ├── Pinduoduo_Logo.png
+│   ├── Tencent_Logo.png
+│   └── signature.png
+└── sample                      \\ sample
+    ├── ByteDance.png
+    ├── Meituan.png
+    └── Tencent.png
 ```
 
 ## How to adapt
 ### `main.tex`
 - Change the address of the letter
     ```
-    \small{
-        \hphantom{AA}Block B, Building T2 \\ % Change your address
-        \hphantom{AA}School of Information Science and Technology \\
-        \hphantom{AA}Shenzhen Bay Innovation Technology Center \\
-        \hphantom{AA}3156 Keyuan South Road, Nanshan District \\
-        \hphantom{AA}Shenzhen, P. R. China, 518054
-    }
+    \hphantom{AA}Block B, Building T2 \\ % Change your address
+    \hphantom{AA}School of Information Science and Technology \\
+    \hphantom{AA}Shenzhen Bay Innovation Technology Center \\
+    \hphantom{AA}3156 Keyuan South Road, Nanshan District \\
+    \hphantom{AA}Shenzhen, P. R. China, 518054 \\
     ```
 
 - Change the signature of the letter
@@ -80,6 +82,7 @@ Therefore, I open-sourced [a recommendation letter template](https://github.com/
 
 ### `letterContent.tex` 
 > Main content of the letter.
+- Edit your content.
 - Note the use of `\\` for line breaks.
 
 ## How to compile
