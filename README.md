@@ -2,7 +2,7 @@
  * @Author: Lili Liang
  * @Date: 2024-05-19 21:22:15
  * @LastEditors: Lili Liang
- * @LastEditTime: 2024-05-21 22:26:55
+ * @LastEditTime: 2024-05-22 11:11:36
  * @Description: Please set description
 -->
 # ByteDance-Letter-Template
@@ -93,8 +93,8 @@ Therefore, I open-sourced the project [ByteDance-Letter-Template](https://github
 
 ## How to compile
 ### Method 1: Online Compilation
-- Open link: 
-- Open as Template
+- Open [Overleaf](https://www.overleaf.com/latex/templates/bytedance-letter-template/pfspzqjqjrhm) link:
+- `Open as Template`
 - Edit your content
 - Compile
 - Download PDF
