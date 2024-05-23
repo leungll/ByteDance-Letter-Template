@@ -2,7 +2,7 @@
  * @Author: Lili Liang
  * @Date: 2024-05-19 21:22:15
  * @LastEditors: Lili Liang
- * @LastEditTime: 2024-05-22 11:11:36
+ * @LastEditTime: 2024-05-24 00:23:15
  * @Description: Please set description
 -->
 # ByteDance-Letter-Template
@@ -26,7 +26,7 @@ Therefore, I open-sourced the project [ByteDance-Letter-Template](https://github
 
 ## Features
 - **You DO NOT NEED to know too much [Latex](https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes) syntax to use it**.
-- Support online compilation using [Overleaf](), without the need to install the [TexLive](https://tug.org/texlive) environment locally.
+- Support online compilation using [Overleaf](https://www.overleaf.com/latex/templates/bytedance-letter-template/pfspzqjqjrhm), without the need to install the [TexLive](https://tug.org/texlive) environment locally.
 - A simple template that can be further customized or extended.
 - Separate the letter's main content from the template frame.
 - Support adding hyperlinks in generated PDF, such as email or url.
@@ -93,7 +93,7 @@ Therefore, I open-sourced the project [ByteDance-Letter-Template](https://github
 
 ## How to compile
 ### Method 1: Online Compilation
-- Open [Overleaf](https://www.overleaf.com/latex/templates/bytedance-letter-template/pfspzqjqjrhm) link:
+- Open [Overleaf](https://www.overleaf.com/latex/templates/bytedance-letter-template/pfspzqjqjrhm) link
 - `Open as Template`
 - Edit your content
 - Compile

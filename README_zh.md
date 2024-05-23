@@ -2,7 +2,7 @@
  * @Author: Lili Liang
  * @Date: 2024-05-19 21:22:15
  * @LastEditors: Lili Liang
- * @LastEditTime: 2024-05-21 22:27:39
+ * @LastEditTime: 2024-05-24 00:23:18
  * @Description: Please set description
 -->
 # ByteDance-Letter-Template
@@ -26,7 +26,7 @@
 
 ## 特性
 - **无需了解太多的 [Latex](https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes) 语法即可使用该模板**
-- 支持使用 [Overleaf]() 在线编译，无需安装 [TexLive](https://tug.org/texlive) 本地环境
+- 支持使用 [Overleaf](https://www.overleaf.com/latex/templates/bytedance-letter-template/pfspzqjqjrhm) 在线编译，无需安装 [TexLive](https://tug.org/texlive) 本地环境
 - 一个简单的模板，可进一步定制或扩展
 - 将推荐信内容和模板框架进行分离
 - 支持在生成的 PDF 中添加超链接，例如电子邮件或 URL
@@ -93,8 +93,8 @@
 
 ## 如何编译
 ### 方式 1 ：在线编译
-- 打开链接：
-- Open as Template
+- 打开 [Overleaf](https://www.overleaf.com/latex/templates/bytedance-letter-template/pfspzqjqjrhm) 链接
+- `Open as Template`
 - 编辑你的内容
 - 编译
 - 下载 PDF
