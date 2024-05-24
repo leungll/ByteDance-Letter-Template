@@ -2,7 +2,7 @@
  * @Author: Lili Liang
  * @Date: 2024-05-19 21:22:15
  * @LastEditors: Lili Liang
- * @LastEditTime: 2024-05-24 00:23:15
+ * @LastEditTime: 2024-05-24 13:53:58
  * @Description: Please set description
 -->
 # ByteDance-Letter-Template
@@ -20,7 +20,7 @@ When applying for graduate/doctoral studies, if we are doing an internship or wo
 
 Therefore, I open-sourced the project [ByteDance-Letter-Template](https://github.com/leungll/ByteDance-Letter-Template) which is suitable for most companies, taking **ByteDance** as an example. In addition, you can adapt it into a recommendation letter template for other companies, such as <u>Tencent</u>, <u>Alibaba</u>, <u>Pinduoduo</u>, <u>Meituan</u>, etc.
 
-## Sample
+## Demo
 ![ByteDance-Letter](https://cdn.jsdelivr.net/gh/leungll/MyImgHosting/img/ByteDance-Letter.png) | ![Tencent-Letter](https://cdn.jsdelivr.net/gh/leungll/MyImgHosting/img/Tencent-Letter.png) | ![Meituan-Letter](https://cdn.jsdelivr.net/gh/leungll/MyImgHosting/img/Meituan-Letter.png)
 ---|---|---
 
@@ -55,7 +55,7 @@ Therefore, I open-sourced the project [ByteDance-Letter-Template](https://github
     └── Tencent.png
 ```
 
-## How to adapt
+## Usage
 ### `main.tex`
 - Change the address of the letter
     ```
@@ -107,3 +107,6 @@ Therefore, I open-sourced the project [ByteDance-Letter-Template](https://github
 ## Reference
 - [THU Letter of Recommendation Template](https://www.overleaf.com/latex/templates/thu-letter-of-recommendation-template/ghjfgfhykprk)
 - [Learn LaTeX in 30 minutes](https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes)
+
+---
+**This project need a star ⭐ from you ❤️.**

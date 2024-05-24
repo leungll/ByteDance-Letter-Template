@@ -2,7 +2,7 @@
  * @Author: Lili Liang
  * @Date: 2024-05-19 21:22:15
  * @LastEditors: Lili Liang
- * @LastEditTime: 2024-05-24 00:23:18
+ * @LastEditTime: 2024-05-24 13:55:12
  * @Description: Please set description
 -->
 # ByteDance-Letter-Template
@@ -107,3 +107,6 @@
 ## 参考
 - [THU Letter of Recommendation Template](https://www.overleaf.com/latex/templates/thu-letter-of-recommendation-template/ghjfgfhykprk)
 - [Learn LaTeX in 30 minutes](https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes)
+
+---
+**This project need a star ⭐ from you ❤️.**
