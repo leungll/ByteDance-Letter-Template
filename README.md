@@ -109,4 +109,4 @@ Therefore, I open-sourced the project [ByteDance-Letter-Template](https://github
 - [Learn LaTeX in 30 minutes](https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes)
 
 ---
-**This project need a star ⭐ from you ❤️.**
+**This project needs a star ⭐ from you ❤️.**
